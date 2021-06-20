@@ -38,7 +38,7 @@ const IndexPageStyles = styled.main`
       }
     }
   }
-  .text-right {
+  .text-left {
     width: 40%;
     h1 {
       font-size: var(--font-hero-size);
@@ -69,7 +69,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <IndexPageStyles>
-        <div className="text-right">
+        <div className="text-left">
           <h1>Let's go yachting!</h1>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic porro
